@@ -1,0 +1,234 @@
+/* Font sizes 
+10/ 12/ 14/ 16/ 18/ 20/ 24/ 30/ 36/ 44/ 52/ 62/ 74/ 86/ 98
+Font weight
+
+Line height
+
+Color/Primary/tint/shades/accent/greys
+
+shadows
+
+border radius
+
+whitespace*/
+
+
+
+html{font-size: 62.5%;}
+
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+
+
+.first-page{
+    padding-bottom: 25px;
+    background-color: #dbe4ff;
+    width: 100%;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    padding: 1.5rem;
+    font-size: 1.6rem;
+    color: #343a40;
+}
+
+ul{list-style: none;}
+
+li a{text-decoration: none;}
+
+.header-list{
+    display: flex;
+    gap: 2.5rem;
+}
+
+.btn:link, .btn:visited{
+    color: #343a40;
+}
+
+.btn:hover, .btn:active{
+    color: #8c8d91;
+}
+
+h1{
+    font-size: 7.4rem;
+    
+}
+
+.hero-section{
+    margin-top: 4rem;
+    text-align: center;
+}
+
+.hero-title{
+    font-size: 2.4rem;
+    margin-bottom: 3rem;
+    color: #343a40;
+}
+
+.saint-image-hero{
+    margin-bottom: 2rem; 
+}
+
+.saint-images-hero-div{
+    display: flex;
+}
+
+.saint-images-hero{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    box-shadow:  0px 0px 0px 2px #dbe4ff;
+    margin-right: -0.4rem;
+}
+
+.hero-section-footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7.5rem;
+}
+
+h2{
+    font-size: 2.4rem;  
+    font-weight: 550;
+    /* margin-bottom: 0.5rem; */
+    color: #343a40;
+}
+
+.hero-section-get-started{
+    text-align: center;
+}
+
+.hero-section-get-started-text{
+    font-size: 1.4rem;
+    margin-bottom: 0.5rem;
+    font-weight: 200;
+    color: #343a40;
+}
+
+.btn-get-started-anchor:link, .btn-get-started-anchor:visited{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background-color: #8c8d91;
+    padding: 0.4rem 0.5rem;
+    border-radius: 3px;
+    font-size: 1.2rem; 
+}
+
+.btn-get-started-anchor:hover, .btn-get-started-anchor:active{
+color: rgb(0, 0, 0);
+background-color: transparent;
+border: 1.5px solid #5c7cfa;
+}
+
+.size-6{
+    width: 15rem;
+    stroke: #212529;
+}
+
+.calendar-h3{
+    font-size: 2.4rem; 
+    color: #212529;
+}
+
+.calendar-p{
+    font-size: 1.8rem; 
+    color: #212529;
+    margin-bottom: 0.5rem;
+}
+
+.calendar-page{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10.5rem;
+    background-color: #ffffff;
+    padding: 7rem;
+}
+
+.calendar-text{
+    text-align: center;
+}
+
+.saint-images{
+   text-align: center;
+}
+
+/* Slider container */
+.slider {
+    position: relative;
+    width: 80%;
+    max-width: 800px;
+    margin: auto;
+    overflow: hidden;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+  }
+  
+  /* Slide */
+  .slides {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .slide {
+    min-width: 100%;
+    box-sizing: border-box;
+  }
+  
+  /* Slide images */
+  .slide img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  /* Navigation buttons */
+  .prev, .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 16px;
+    cursor: pointer;
+    border-radius: 50%;
+    font-size: 18px;
+    user-select: none;
+  }
+  
+  .prev {
+    left: 10px;
+  }
+  
+  .next {
+    right: 10px;
+  }
+  
+  .prev:hover, .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  h4{
+    font-size: 4.0rem;
+     color: #1d1e20;
+}
+
+  .how-to-be-a-saint{
+    text-align: center;
+    margin-top: 10rem;
+}
+
+.step-1{
+    font-size: 3.0rem;
+}
+
+.step-1-p{
+    font-size: 2rem;
+}
+  
